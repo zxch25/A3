@@ -1,0 +1,300 @@
+*{
+    margin: auto;
+}
+
+/* Background Image is Full Size */
+#background{
+    width: 100%;
+}
+
+/* Logo Sizing & Location */
+#logo{
+    float: left;
+    position: absolute;
+    width: 5%;
+    left: 680px;
+    top: 25px;
+}
+
+/* Menu Icon Sizing & Location */
+#menuicon{
+    float: left;
+    position: absolute;
+    width: 2.5%;
+    left: 100px;
+    top: 44px;
+}
+
+/* Search Icon Sizing & Location */
+#searchicon{
+    float: left;
+    position: absolute;
+    width: 2.5%;
+    left: 1150px;
+    top: 44px;
+}
+
+/* Menu Icon Text */
+.menu{
+    position: absolute;
+    left: 160px;
+    top: 48px;
+    font-size: x-small;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: transparent;
+}
+
+/* Search Icon Text */
+.search{
+    position: absolute;
+    left: 1210px;
+    top: 48px;
+    font-size: x-small;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading Positioning and Form */
+.heading{
+        position: absolute;
+        left: 850px;
+        top: 230px;
+        font-size: xx-large;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: right;
+}
+
+/* Subheading Positioning and Form */
+.subtext{
+    position: absolute;
+        left: 760px;
+        top: 420px;
+        width: 600px;
+        font-size: medium;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: right;
+}
+
+/* Dropdwon Menu Positioning */
+.dropdown{
+    float: left;
+    position: absolute;
+    top: 600px;
+    right: 80px;
+}
+
+/* Background Image is Full Size */
+#secondbg{
+    width: 100%;
+}
+
+/* Heading Positioning and Form */
+.heading2{
+    float: left;
+    position: absolute;
+    top: 850px;
+    left: 560px;
+    text-align: center;
+    font-size: x-large;   
+}
+
+/* Subheading Resize */
+.heading2, h2{
+    font-weight: 300;
+}
+
+/* Image Allocation */
+#oyster{
+    float: left;
+    position: absolute;
+    left: 200px;
+    top: 950px;
+    width: 25%;
+}
+
+/* Image Allocation */
+#yellow{
+    float: left;
+    position: absolute;
+    left: 540px;
+    top: 950px;
+    width: 25%;
+}
+
+/* Image Allocation */
+#everose{
+    float: left;
+    position: absolute;
+    left: 890px;
+    top: 950px;
+    width: 25%;
+}
+
+/* Image Text Form and Location */
+.w1{
+    float: left;
+    position: absolute;
+    top: 1435px;
+    left: 300px;
+    text-align: center;
+    font-size: medium;
+}
+
+/* Image Text Form and Location */
+.w2{
+    float: left;
+    position: absolute;
+    top: 1435px;
+    left: 640px;
+    text-align: center;
+    font-size: medium;
+}
+
+/* Image Text Form and Location */
+.w3{
+    float: left;
+    position: absolute;
+    top: 1435px;
+    left: 980px;
+    text-align: center;
+    font-size: medium;
+}
+
+/* Button Details and Positioning */
+.det1{
+    float: left;
+    position: absolute;
+    top: 1550px;
+    left: 320px;
+    text-align: center;
+    font-size: medium;
+    color: white;
+    background-color: #006039;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Button Details and Positioning */
+.det2{
+    float: left;
+    position: absolute;
+    top: 1550px;
+    left: 667px;
+    text-align: center;
+    font-size: medium;
+    color: white;
+    background-color: #006039;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Button Details and Positioning */
+.det3{
+    float: left;
+    position: absolute;
+    top: 1550px;
+    left: 1015px;
+    text-align: center;
+    font-size: medium;
+    color: white;
+    background-color: #006039;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Button Details and Positioning */
+.browse{
+    float: left;
+    position: absolute;
+    top: 1680px;
+    left: 470px;
+    text-align: center;
+    font-size: medium;
+    color: white;
+    background-color: #000000;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Button Details and Positioning */
+.contact{
+    float: left;
+    position: absolute;
+    top: 1680px;
+    left: 820px;
+    text-align: center;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Third Heading form and location */
+.h3{
+    float: left;
+    position: absolute;
+    top: 1950px;
+    left: 150px;
+    text-align: left;
+    font-size: x-large;   
+}
+
+/* Third Copy form and location */
+.copy{
+    float: left;
+    position: absolute;
+    top: 2050px;
+    left: 150px;
+    width: 800px;
+    text-align: left;
+    font-size: m; 
+}
+
+/* Imagery form and location */
+#roger{
+    float: left;
+    position: absolute;
+    width: 25%;
+    top: 1892px;
+    right: 0px;
+    border-radius: 20px 0px 0px 0px;
+}
+
+/* Rate Me button location */
+.rateme{
+    float: left;
+    position: absolute;
+    top: 2230px;
+    left: 150px;
+}
+
+/* Star Rating System location */
+.rating{
+    float: left;
+    position: absolute;
+    top: 2237px;
+    left: 280px;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/themes/light.css" />
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.18.0/cdn/shoelace-autoloader.js"></script>
+
+    <script defer src="app.js"></script>
+
+</head>
+<body>
+
+    
+<!-- Header Elements Including Background Image and Associated Icons -->
+    <img src="federer.png" id="background">
+    <img src="logo.png" id="logo">
+    <img src="menuicon.png" id="menuicon">
+    <img src="searchicon.png" id="searchicon">
+
+<!-- Header Icon's Text for Clarification -->
+    <div class="menu">
+    <h1>Menu</h1>
+    </div>
+    <div class="search">
+    <h1>Search</h1>
+    </div>
+
+<!-- Heading and Subheading for Hero Piece -->
+    <div class="heading">
+        <h1>On the Wrists<br>of Globetrotters</h1>
+    </div>
+
+    <div class="subtext">
+        <p>Adopted by the flight crews of Pan American World Airways,
+            better known as Pan Am, the GMT-Master came to epitomize
+            the aeronautical watch and has since triumphed in other realms,
+            on the wrists of world travellers.
+        <br><br>
+        Resistant and waterproof thanks to its Oyster case, technical and
+        intuitive with its GMT function displaying a second time zone,
+        it is the trustworthy companion of those venturing to new or
+        unfamiliar destinations.
+        </p>
+    </div>
+
+<!-- Dropdown Section Covering Possible User Options -->
+    <div class="dropdown">
+    <sl-dropdown>
+        <sl-button slot="trigger" caret>Discover</sl-button>
+        <sl-menu>
+          <sl-menu-item>Our Store</sl-menu-item>
+          <sl-menu-item>About Us</sl-menu-item>
+          <sl-menu-item>Contact Us</sl-menu-item>
+          <sl-divider></sl-divider>
+          <sl-menu-item type="checkbox" checked>Australia</sl-menu-item>
+          <sl-menu-item disabled>Rest of the World</sl-menu-item>
+          <sl-divider></sl-divider>
+          <sl-menu-item>
+             Gift
+            <sl-icon slot="prefix" name="gift"></sl-icon>
+          </sl-menu-item>
+          <sl-menu-item>
+            Favourite
+            <sl-icon slot="suffix" name="heart"></sl-icon>
+          </sl-menu-item>
+        </sl-menu>
+      </sl-dropdown>
+    </div>
+      
+<!-- Colour Correction for Background due to Primary Contraints -->
+        <img src="background.png" id="secondbg">
+
+<!-- Section Heading and Subheading -->
+ 
+    <div class="heading2">
+        <h1>GMT-Master II</h1>
+        <h2>in Oystersteel</h2>
+    </div>
+
+<!-- Collection of Watches -->
+<div class="watches">
+    <img src="Oystersteel.png" id="oyster">
+    <img src="Yellow Gold.png" id="yellow">
+    <img src="Everose Gold.png" id="everose">
+</div>
+
+<!-- First Watch Copy -->
+<div class="w1">
+    <h1>Oystersteel</h1>
+    <h2>$17,150+</h2>
+    </div>
+
+<!-- Second Watch Copy -->
+    <div class="w2">
+        <h1>Yellow Gold</h1>
+        <h2>$18,950+</h2>
+        </div>
+
+<!-- Third Watch Copy -->
+        <div class="w3">
+            <h1>Everose Gold</h1>
+            <h2>$15,650+</h2>
+            </div>
+            
+<!-- User Granted Options -->
+<div class="det1">
+    <h2>Details</h2>
+</div>
+<div class="det2">
+    <h2>Details</h2>
+</div>
+<div class="det3">
+    <h2>Details</h2>
+</div>
+<div class="browse">
+    <h2>Browse More</h2>
+</div>
+<div class="contact">
+    <h2>Contact Us</h2>
+</div>
+
+<!-- Final Section Heading and Copy -->
+<section class="hidden">
+<div class="h3">
+    <h1>Mastering Materials</h1>
+</div>
+<div class="copy">
+    <p>Recognizable at a glance, the GMT-Master II is the first Rolex watch to have been
+        fitted with a Cerachrom bezel insert in high-technology ceramic. This monobloc 
+        two-colour insert with a 24-hour graduation is virtually scratchproof and extremely hard. 
+        It is developed and manufactured by Rolex in a variety of colour combinations.
+        <br><br>
+        The version released in 2014 revived the emblematic colour pairing found on the original 
+        watch. Bringing red and blue together on a single-piece ceramic component presents a sizeable 
+        challenge and is extremely difficult to achieve. This technical tour de force required many 
+        years of research and was a world first.
+    </p>
+</div>
+</section>
+
+<!-- Final Section Image -->
+<img src="roger2.png" id="roger">
+
+<!-- Interactive Button -->
+<div class="rateme">
+<sl-button variant="default" outline>Rate Me</sl-button>
+</div>
+
+<!-- Star Ranking System -->
+<div class="rating">
+    <sl-rating label="Rating"></sl-rating>
+</div>
+    
+
+</body>
+</html>
